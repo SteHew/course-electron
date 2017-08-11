@@ -4,7 +4,8 @@ const url = require('url')
 
 let win
 
-function createWindow () {
+let createWindow = () => {
+  
     win = new BrowserWindow({frame: false, titleBarStyle:'hidden', width: 900, height: 600, minWidth: 400, minHeight: 400})
 
     win.loadURL(url.format({
