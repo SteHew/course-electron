@@ -6,13 +6,15 @@ let win
 
 let createWindow = () => {
 
-    win = new BrowserWindow({frame: false, titleBarStyle:'hidden', width: 500, height: 500, minWidth: 400, minHeight: 400})
+    win = new BrowserWindow({frame: false, titleBarStyle:'hidden', width: 1000, height: 500, minWidth: 400, minHeight: 400})
 
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'index.html'),
         protocol: 'file:',
         slashes: true
     }))  
+
+    win.webContents.openDevTools();
 
     win.on('closed', () => {
         win = null
