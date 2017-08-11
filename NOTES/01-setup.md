@@ -1,5 +1,5 @@
 ---
-gitrepo: "https://github.com/bcsjk11/electron-basic-start"
+gitrepo: "https://github.com/bcsjk11/electron-basic-start/blob/master/NOTES/01-setup.md"
 
 
 ---

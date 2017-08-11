@@ -1,0 +1,15 @@
+{
+    "name": "02-titlebar",
+    "version": "1.0.0",
+    "description": "Demo showing how to move an app",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "electron": "^1.7.5"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

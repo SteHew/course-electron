@@ -1,3 +1,10 @@
-node_modules
-package-lock.json
+.DS_Store
+
+01-setup/.DS_Store
+01-setup/node_modules
+01-setup/package-lock.json
+
+02-titlebar/.DS_Store
+02-titlebar/node_modules
+02-titlebar/package-lock.json
 
