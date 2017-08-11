@@ -80,7 +80,7 @@ into
 },
 ```    
 
-Also you need to add the depencies section at the end:
+You also need to add the depencies section at the end:
 
 ```js
 "dependencies": {
