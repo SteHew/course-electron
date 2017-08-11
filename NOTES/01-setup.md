@@ -6,9 +6,9 @@ gitrepo: "https://github.com/bcsjk11/electron-basic-start"
 
 # Electron Desktop Apps
 
-| Course | Semester | Week | Type |
-| :--- | :--- | :--- | :--- |
-| ![badge](https://img.shields.io/badge/Course-COMP6001-0099cc.svg) |![badge](https://img.shields.io/badge/Semester-17B-red.svg) |![badge](https://img.shields.io/badge/Week-01-green.svg) | ![badge](https://img.shields.io/badge/Type-Notes-orange.svg)
+| Course | Semester | Week | Type | Learning Outcome |
+| :--- | :--- | :--- | :--- | :-- |
+| ![badge](https://img.shields.io/badge/Course-COMP6001-0099cc.svg) |![badge](https://img.shields.io/badge/Semester-17B-red.svg) |![badge](https://img.shields.io/badge/Week-01-green.svg) | ![badge](https://img.shields.io/badge/Type-Notes-orange.svg) | ![badge](https://img.shields.io/badge/LO-1-yellow.svg)
 
 ---
 
