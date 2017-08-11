@@ -1,0 +1,14 @@
+{
+    "name": "Basic-Start",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "description": "Base Project, easy reference - easier than quickstart",
+    "repository": "https://github.com/your_repository",
+    "license": "Type of license",
+    "dependencies": {
+        "electron": "^1.7.5"
+    }
+}
