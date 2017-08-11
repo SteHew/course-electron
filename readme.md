@@ -6,6 +6,10 @@ gitrepo: "https://github.com/bcsjk11/electron-basic-start"
 
 # Electron Desktop Apps
 
+| Course | Semester | Week |
+| :--- | :--- | :--- |
+| ![badge](https://img.shields.io/badge/Course-COMP6001-0099cc.svg) |![badge](https://img.shields.io/badge/Semester-17B-red.svg) |![badge](https://img.shields.io/badge/Weeek-01-green.svg)
+
 ---
 
 ## Electron Introduction:
