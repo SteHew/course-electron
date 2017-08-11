@@ -12,7 +12,7 @@ gitrepo: "https://github.com/bcsjk11/electron-basic-start"
 
 ---
 
-## Electron Introduction:
+## Electron Introduction
 
 ---
 
@@ -23,7 +23,7 @@ Because the apps are native, they can do things native apps can do. This means, 
 
 ---
 
-## Electron Parts:
+## Electron Parts
 
 ---
 
