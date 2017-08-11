@@ -46,9 +46,12 @@ We are able to set the properties to move the application around the screen in o
 
 An example for basic titlebar would be:
 
-```markup
+In your HTML set create a tag and give it the class `titlebar` so that it can matched in your css.
+
+```html
 <header class="titlebar">Click and Drag</header>
 ```
+In your css file, create a rule for the `.titlebar` class. In the example below it also disable text selection for all the items.
 
 ```css
 .titlebar {
