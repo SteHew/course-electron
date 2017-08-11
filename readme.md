@@ -1,3 +1,9 @@
+---
+gitrepo: "https://github.com/bcsjk11/electron-basic-start"
+
+
+---
+
 # Electron Desktop Apps
 
 ---
@@ -210,6 +216,18 @@ let dothis = () => {
     console.log("Button Clicked!");
 }
 ```
+
+---
+
+## File Setup
+
+---
+
+After everyting is setup your files should look like this:
+
+> Note: the `.gitignore` file holds the `node_modules/` folder, so that they are not synced with your git repository.
+
+![Files](http://go.jwk.nz/ly0e/download/Files-Basic_Start.png)
 
 ---
 

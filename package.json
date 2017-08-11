@@ -6,8 +6,7 @@
         "start": "electron ."
     },
     "description": "Base Project, easy reference - easier than quickstart",
-    "repository": "https://github.com/your_repository",
-    "license": "Type of license",
+    "repository": "https://github.com/bcsjk11/electron-basic-start",
     "dependencies": {
         "electron": "^1.7.5"
     }
