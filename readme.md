@@ -80,7 +80,16 @@ into
 },
 ```    
 
-Now we can start the electron app by typing in `npm start`
+Also you need to add the depencies section at the end:
+
+```js
+"dependencies": {
+    "electron": "^1.7.5" //version latest at the time of writing
+}
+```
+
+Now we can start the electron app by typing in `npm install && npm start`
+Once we have done the install, we can just type in `npm start` unless we change our depencies.
 
 Technically that is all you need to setup a new project, but at this stage you will not see anything, because you haven't created anything yet. That comes next when we look at the `main.js` file.
 
@@ -225,7 +234,7 @@ let dothis = () => {
 
 After everyting is setup your files should look like this:
 
-> Note: the `.gitignore` file holds the `node_modules/` folder, so that they are not synced with your git repository.
+> Note: the `.gitignore` file references the `node_modules/` folder and the `package-lock.json` file that are generated with the `npm install` command, so that they are not synced with your git repository.
 
 ![Files](http://go.jwk.nz/ly0e/download/Files-Basic_Start.png)
 
