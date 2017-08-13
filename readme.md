@@ -19,14 +19,6 @@ This course is offered as part of the Computer Science Degree in Applied Computi
 
 The paper where you will be using this module is **COMP60001: GUI Programming**
 
-# Learning Outcomes:
-
-| Outcome | Description |
-| :---: | :--- |
-| 1 | Demonstrate the knowledge of Graphical User Interface programming conventions and standards. |
-| 2 | Implement Graphical User Interface programming concepts through the creation of practical programming solution that utilises an event driven process. |
-| 3 | Design and develop a simple application of medium complexity to demonstrate the Graphical User Interface programming skills. |
-
 # Repo Structure
 
 You will 3 folders at the root of this repo:
