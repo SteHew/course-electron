@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 Which creates something like this:
 
-![titlebar](images/Titlebar.gif)
+![titlebar](../../images.Titlebar.gif)
 
 > NOTE: You are able to set the `-webkit-app-region:` property on the whole app, but the user experience would not feel natural and may confuse the end user.
 

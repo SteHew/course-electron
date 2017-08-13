@@ -240,13 +240,8 @@ After everyting is setup your files should look like this:
 
 > Note: the `.gitignore` file references the `node_modules/` folder and the `package-lock.json` file that are generated with the `npm install` command, so that they are not synced with your git repository.
 
-![Files](images/Files-Basic_Start.png)
+![Files](../../images/Files-Basic_Start.png)
 
----
-
-## END OF BASIC_START
-
----
 
 
 

@@ -79,7 +79,7 @@ Menu.setApplicationMenu(menu)
 
 Once you have done that you should see something like this:
 
-![Menu Bar](images/menu-bar.gif)
+![Menu Bar](../../images.menu-bar.gif)
 
 # Moving the Menu
 
