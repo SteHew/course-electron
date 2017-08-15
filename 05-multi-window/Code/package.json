@@ -1,0 +1,24 @@
+{
+  "name": "multi-window",
+  "version": "1.0.0",
+  "description": "Demo for multiwindow application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bcsjk11/course-electron.git"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "electron": "*",
+    "jquery": "^3.2.1"
+  },
+  "author": "jeff kranenburg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcsjk11/course-electron/issues"
+  },
+  "homepage": "https://github.com/bcsjk11/course-electron#readme"
+}

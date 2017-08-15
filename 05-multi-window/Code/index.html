@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pick a Social Media Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <img src="images/facebook.svg" alt="facebook" id="fb">
+    <img src="images/twitter.svg" alt="twitter" id="tw">
+    <img src="images/youtube.svg" alt="youtube" id="yt">
+    <a class="attribution" href="https://medialoot.com/item/simple-social-icons-2013/#" target="_blank"><p>Images by medialoot</p></a>
+
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script>window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.js');</script>
+    <script>
+
+        let fb = document.getElementById('fb');
+        let tw = document.getElementById('tw');
+        let yt = document.getElementById('yt');
+
+        fb.addEventListener('click', () => {
+            goToPage('https://facebook.com');
+        })
+
+        tw.addEventListener('click', () => {
+            goToPage('https://twitter.com');
+        })
+
+        yt.addEventListener('click', () => {
+            goToPage('https://youtube.com');
+        })
+
+
+        let goToPage = (url) => {
+            const electron = require('electron')
+            const remote = electron.remote
+            const browser = remote.BrowserWindow
+
+            let subwin = new browser({frame: true, titlebar: 'hidden', width: 800, height: 600})
+            subwin.loadURL(url)
+
+            window.addEventListener('contextmenu', (e) => {
+                e.preventDefault()
+                subwin.popup(remote.getCurrentWindow())
+            }, false)
+        } 
+
+    </script>
+</body>
+</html>
